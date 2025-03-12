@@ -1,6 +1,7 @@
 # iss_class_activity_12_march
 
-##Initial code:
+## Initial code:
+```
 def is_narc(n)
     """Check if a number is narc."""
     num_str == str(n)
@@ -17,8 +18,10 @@ def print_narcis_numbers(start end)
             print(num)
 
 print_narc_numbers(1000, 5000)
+```
 
-##Updated code:
+## Updated code:
+```
 def is_narc(n):                                 #added colon for block
     """Check if a number is narc."""
     num_str = str(n)                            # made == to =
@@ -35,8 +38,9 @@ def print_narcis_numbers(start, end):            #added comma between start and 
             print(num)
 
 print_narcis_numbers(1000, 5000)                  #from print_narc_numbers to print_narcis_numbers
+```
 
-###Changes:
+### Changes:
   - Colons are added for every block statement
   - Function calls are renamed to function name
   - Added ',' between function arguments
